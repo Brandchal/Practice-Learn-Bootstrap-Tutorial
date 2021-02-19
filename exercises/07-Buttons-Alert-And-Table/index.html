@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
+	<body>
+		<div class="container-fluit">
+			<div class="row">
+				<div class="col-6">
+					<h3>convallis justo mattis tempus, etiam egestas potenti</h3>
+					<p>Id vivamus feugiat neque ligula porttitor malesuada fusce faucibus, mus primis donec accumsan blandit varius.</p>
+					<button type="button" class="btn btn-success">Yes</button>
+					<button type="button" class="btn btn-danger">No</button>
+				</div>
 
-<body>
-
-</body>
-
+				<div class="row">
+					<div class="col-6">
+						<div class="alert alert-warning alert-dismissible fade show" role="alert">
+							You should check in on some of those fields below.
+						</div>
+						<table class="table">
+							<thead>
+								<tr>
+									<th scope="col">Firstname</th>
+									<th scope="col">Lastname</th>
+									<th scope="col">Email</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>John</td>
+									<td>Doe</td>
+									<td>John@example.com</td>
+								</tr>
+								<tr>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>Jacob@example.com</td>
+								</tr>
+								<tr>
+									<td>July</td>
+									<td>Dooley</td>
+									<td>July@example.com</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
